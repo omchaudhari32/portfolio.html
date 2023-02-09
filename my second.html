@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #my-right {
+            /* border: 1px solid red; */
+            height: 100%;
+            width: 30%;
+            background-color: beige;
+        }
+
+        #my-right h1 {
+            font-weight: bolder;
+            font-size: 50px;
+        }
+
+        #my-right p {
+            color: #14b789;
+            font-weight: medium;
+            font-size: 20px;
+        }
+
+        #my-right-top,
+        #my-right-bottom {
+            display: flex;
+            justify-content: space-between;
+            height: 50%;
+        }
+
+        #my-right-top div,
+        #my-right-bottom div {
+            width: 50%;
+            padding: 30px 15px;
+        }
+
+        #my-right-top {
+            border-bottom: 4px solid rgb(215, 212, 212);
+        }
+
+        #my-right-top>div:first-child, #my-right-bottom>div:first-child {
+            border-right: 4px solid rgb(215, 212, 212);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="my-right">
+        <div id="my-right-top">
+            <div>
+                <h1>20+</h1>
+                <p>Years of Experiences</p>
+            </div>
+            <div>
+                <h1>245</h1>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+        <div id="my-right-bottom">
+            <div>
+                <h1>640</h1>
+                <p>Project Finished</p>
+            </div>
+            <div>
+                <h1>72+</h1>
+                <p>Digital Awards</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
